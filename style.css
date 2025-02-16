@@ -55,3 +55,12 @@ li{
     background-color: black;
     
 }
+.box{
+    background-color: #323131;
+    border-radius: 23px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+
+}
