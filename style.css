@@ -102,3 +102,37 @@ background-color: black;
 border-radius: 23px;
 
  }
+ li{
+    position: relative;
+    display: inline-block;
+   
+
+ }
+ .dropdown{
+    display: none;
+    position: absolute;
+    overflow: hidden;
+border: 1px solid black;
+   z-index: 1;
+    color: white;
+    background-color: black;
+ }
+ .dropdown a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+ }
+ .dropdown a:hover{
+    background-color: rgb(88, 85, 85);
+    color: white;
+ }
+ .dropdown a:last-child{
+    border-bottom: none;
+ }
+ li:hover .dropdown{
+    display: block;
+ } 
