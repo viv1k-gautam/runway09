@@ -3,10 +3,10 @@
     margin: 0%;
 }
 .logo{
-    background-image: url(logo.jpg);
+    background-image: url(new\ logo.png);
     background-size: cover;
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 100px;
     margin-left: 10px;
 }
 .heading{
