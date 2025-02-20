@@ -5,9 +5,11 @@
 .logo{
     background-image: url(new\ logo.png);
     background-size: cover;
-    width: 120px;
+    width:120px;
     height: 100px;
-    margin-left: 10px;
+  display: flex;
+  justify-content: start;
+
 }
 .heading{
     display: flex;
@@ -78,6 +80,8 @@ li{
     padding-top: 100px;
    font-weight: bold;
    font-size: 2rem;
+ 
+
    /* border: 2px solid black; */
  }
  .main{
@@ -88,7 +92,7 @@ li{
     font-weight: 100;
     font-size: 1rem;
     margin-top: 20px;
-    color: grey;
+    color: rgb(147, 147, 147);
     width: 400px;
  }
  .view{
@@ -136,3 +140,33 @@ border: 1px solid black;
  li:hover .dropdown{
     display: block;
  } 
+ .full{
+    background-image: url(back.webp);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+
+  
+ }
+ .full::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-image: url(back.webp);
+    background-size: cover;
+    background-position: left;
+    filter: blur(20px);
+    z-index: -1;
+ }
+ span{
+    color:#FFF2AF ;
+ }
+
+ .full{
+    border:solid black;
+    height: 700px;
+    
+ }
